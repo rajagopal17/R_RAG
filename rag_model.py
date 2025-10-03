@@ -66,8 +66,8 @@ if __name__ == '__main__':
     # Load the index and metadata
     index = load_index(INDEX_PATH)
     metadata = load_metadata(METADATA_PATH)
-     # Example query
-    query = "how depreciation is calculated and posted in SAP ?"  # Replace with your query
+     # input query into the terminal
+    query = input("Enter your query: ")
     top_k = 10  # Number of results to retrieve
 
     # Search the index
